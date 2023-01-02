@@ -27,6 +27,9 @@ http://34.175.117.110/api
 key: x-api-key
 value: myapitoken
 
+### To Access Locally
+- You need to add an user and a token in local db
+
 
 ### asynchronous flow
 
