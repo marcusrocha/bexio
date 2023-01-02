@@ -18,9 +18,23 @@ My idea with this project was just to demonstrate a little understanding of rele
 The Prototype is working on a google cloud instance
 http://34.175.190.187/api
 
-## Notes
+## Notes 
+
+### Access to API
+
+- if you want to access this using any external client (Example: postman) you need to put the token in your header:
+
+key: x-api-key
+value: myapitoken
 
 
+### asynchronous flow
+
+I've created a mail catcher in http://34.175.190.187:32768/
+You can check the email after access: http://34.175.190.187/api/buy
 
 
-
+### Development helpers
+- symfony open:local:webmail
+- php bin/console --env=test hautelook:fixtures:load
+- symfony console --env=test do:mi:mi

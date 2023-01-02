@@ -3,11 +3,11 @@ namespace App\Message;
 
 class PurchaseConfirmationNotification {   
 
-    public function __construct(private object $order) {
+    public function __construct(private string $order) {
         
     }
 
-    public function getOrder()
+    public function getOrderMail()
     {
        return $this->order;
     }
