@@ -9,8 +9,9 @@ My idea with this project was just to demonstrate a little understanding of rele
 - Doctrine and entities
 - API
 - Tests
+- Auth
 - Performance using asynchronous strategies 
-- Docker/Docker-compose  
+- Docker/Docker-compose (Mysql and Mail Catcher)
 - Command (Design Pattern) 
 - Deploy on Google cloud 
 
