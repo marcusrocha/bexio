@@ -16,7 +16,7 @@ My idea with this project was just to demonstrate a little understanding of rele
 
 ## Deployment
 The Prototype is working on a google cloud instance
-http://34.175.190.187/api
+http://34.175.117.110/api
 
 ## Notes 
 
@@ -32,8 +32,7 @@ value: myapitoken
 
 Access http://34.175.117.110/api/buy to run asynchronous
 
-I've created a mail catcher (Only on local machine)
-
+I've created a mail catcher (Only on local environment)
 
 
 ### Development helpers
