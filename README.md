@@ -9,9 +9,9 @@ My idea with this project was just to demonstrate a little understanding of rele
 - Doctrine and entities
 - API
 - Tests
-- Performance using asynchronous strategies (In progress)
-- Docker/Docker-compose  (In progress)
-- Command (Design Pattern) (In progress)
+- Performance using asynchronous strategies 
+- Docker/Docker-compose  
+- Command (Design Pattern) 
 - Deploy on Google cloud 
 
 ## Deployment
@@ -30,11 +30,14 @@ value: myapitoken
 
 ### asynchronous flow
 
-I've created a mail catcher in http://34.175.190.187:32768/
-You can check the email after access: http://34.175.190.187/api/buy
+Access http://34.175.117.110/api/buy to run asynchronous
+
+I've created a mail catcher (Only on local machine)
+
 
 
 ### Development helpers
-- symfony open:local:webmail
+
 - php bin/console --env=test hautelook:fixtures:load
 - symfony console --env=test do:mi:mi
+- symfony console messenger:consume async -vv
