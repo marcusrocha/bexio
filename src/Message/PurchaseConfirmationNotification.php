@@ -1,16 +1,14 @@
 <?php 
 namespace App\Message;
 
-class PurchaseConfirmationNotification {
+class PurchaseConfirmationNotification {   
 
-    private object $order; 
-
-    public function __construct(object $order) {
-        $this->order = $order;
+    public function __construct(private object $order) {
+        
     }
 
     public function getOrder()
     {
-        $this->order;
+       return $this->order;
     }
 }
