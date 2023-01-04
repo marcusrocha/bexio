@@ -9,7 +9,7 @@ use Doctrine\ORM\EntityManagerInterface;
 use Hautelook\AliceBundle\PhpUnit\RefreshDatabaseTrait;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
-class ProductTest extends ApiTestCase
+class ProductsTest extends ApiTestCase
 {
     use RefreshDatabaseTrait;
 
